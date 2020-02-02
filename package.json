@@ -1,0 +1,24 @@
+{
+  "name": "email-editor",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:malectro/email-editor",
+  "author": "Kyle Warren",
+  "license": "none",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.pug"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "pug": "^2.0.4",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "nanoid": "^2.1.11",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
